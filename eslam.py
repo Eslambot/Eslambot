@@ -4,7 +4,7 @@ import datetime
 
 tok = "8017430249:AAHq2vIXxcbDUF1bQE6s54bIbDgVDkuaHgU"  
 bot = telebot.TeleBot(tok)
-
+user_username = @w_4_8
 first_names = ['Juan', 'Maria', 'Jose', 'Ana', 'Pedro', 'Luis', 'Carmen', 'Ramon', 'Elena', 'Carlos']
 last_names = ['Dela Cruz', 'Garcia', 'Reyes', 'Ramos', 'Mendoza', 'Santos', 'Flores', 'Gonzales', 'Bautista', 'Villanueva']
 domains = ['gmail.com', 'yahoo.com', 'hotmail.com', 'outlook.com', 'example.com']
@@ -70,7 +70,7 @@ def generate_fake_paypal_details():
         f"   - **الرمز البريدي**: {postal_code}\n"
         f"   - **المدينة**: {city}\n"
         f"   - **الولاية**: {state}\n\n"
-        f"🔗 **تم الإنشاء بواسطة**: @{w_4_8}\n"
+        f"🔗 **تم الإنشاء بواسطة**: @{user_username}\n"
         f"📅 **تاريخ الإنشاء**: {datetime.datetime.now().strftime('%d/%m/%Y %H:%M:%S')}"
     )
 
